@@ -24,7 +24,7 @@ import (
 	"github.com/allensaner/mindoc/utils/filetil"
 	"github.com/allensaner/mindoc/utils/requests"
 	"github.com/allensaner/mindoc/utils/ziptil"
-	"github.com/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 )
 
 var releaseQueue = make(chan int, 500)

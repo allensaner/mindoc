@@ -18,7 +18,7 @@ import (
 	"github.com/allensaner/mindoc/utils"
 	"github.com/allensaner/mindoc/utils/filetil"
 	"github.com/allensaner/mindoc/utils/pagination"
-	"github.com/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 	"io/ioutil"
 	"os"
 )

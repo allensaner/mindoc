@@ -17,7 +17,7 @@ import (
 	"github.com/allensaner/mindoc/converter"
 	"github.com/allensaner/mindoc/utils/filetil"
 	"github.com/allensaner/mindoc/utils/ziptil"
-	"github.com/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 	"regexp"
 	"github.com/allensaner/mindoc/utils/cryptil"
 	"github.com/allensaner/mindoc/utils/requests"

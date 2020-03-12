@@ -15,7 +15,7 @@ import (
 	"github.com/allensaner/mindoc/utils/filetil"
 	"github.com/allensaner/mindoc/utils/gopool"
 	"github.com/allensaner/mindoc/utils/pagination"
-	"github.com/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 	"html/template"
 	"image/png"
 	"net/http"

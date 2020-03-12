@@ -23,7 +23,7 @@ import (
 	"github.com/allensaner/mindoc/models"
 	"github.com/allensaner/mindoc/utils"
 	"github.com/allensaner/mindoc/utils/pagination"
-	"github.com/russross/blackfriday.v2"
+	"github.com/russross/blackfriday"
 )
 
 type BookController struct {

@@ -18,7 +18,7 @@ import (
 	"github.com/lifei6671/mindoc/utils"
 	"github.com/lifei6671/mindoc/utils/filetil"
 	"github.com/lifei6671/mindoc/utils/pagination"
-	"gopkg.in/russross/blackfriday.v2"
+	"github.com/russross/blackfriday.v2"
 	"io/ioutil"
 	"os"
 )

@@ -2,12 +2,12 @@ package models
 
 import (
 	"time"
-	"github.com/lifei6671/mindoc/conf"
+	"github.com/allensaner/mindoc/conf"
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego"
 	"errors"
-	"github.com/lifei6671/mindoc/utils/cryptil"
-	"github.com/lifei6671/mindoc/utils"
+	"github.com/allensaner/mindoc/utils/cryptil"
+	"github.com/allensaner/mindoc/utils"
 	"strings"
 )
 

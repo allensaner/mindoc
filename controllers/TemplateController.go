@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"github.com/lifei6671/mindoc/models"
+	"github.com/allensaner/mindoc/models"
 	"github.com/astaxie/beego/orm"
 	"errors"
 	"strings"
-	"github.com/lifei6671/mindoc/conf"
+	"github.com/allensaner/mindoc/conf"
 )
 
 type TemplateController struct {

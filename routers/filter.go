@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/models"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/models"
 	"net/url"
 	"regexp"
 )

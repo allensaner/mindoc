@@ -10,8 +10,8 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/utils/filetil"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/utils/filetil"
 )
 
 // Attachment struct .

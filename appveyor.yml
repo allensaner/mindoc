@@ -1,5 +1,5 @@
 version: "{build}"
-clone_folder: c:\gopath\src\github.com\lifei6671\mindoc
+clone_folder: c:\gopath\src\github.com\allensaner\mindoc
 
 environment:
   GOPATH: c:\gopath
@@ -48,9 +48,9 @@ build_script:
   - if [%tbs_tools%]==[mingw] if [%tbs_arch%]==[x64] SET PATH=C:\mingw64\bin;%PATH%
   - set CGO_ENABLED=1
   - for /f "delims=" %%i in ('go version') do (set GO_VERSION=%%i)
-  - cd c:\gopath\src\github.com\lifei6671\mindoc
+  - cd c:\gopath\src\github.com\allensaner\mindoc
   - dep ensure -v
-  - go build -v -o "mindoc_windows_%GOARCH%.exe" -ldflags="-w -X github.com/lifei6671/mindoc/conf.VERSION=%APPVEYOR_REPO_TAG_NAME% -X 'github.com/lifei6671/mindoc/conf.BUILD_TIME=%date% %time%' -X 'conf.GO_VERSION=%GO_VERSION%'"
+  - go build -v -o "mindoc_windows_%GOARCH%.exe" -ldflags="-w -X github.com/allensaner/mindoc/conf.VERSION=%APPVEYOR_REPO_TAG_NAME% -X 'github.com/allensaner/mindoc/conf.BUILD_TIME=%date% %time%' -X 'conf.GO_VERSION=%GO_VERSION%'"
   - 7z a -t7z -r mindoc_windows_%GOARCH%.7z conf/*.conf* static/* mindoc_windows_%GOARCH%.exe views/* uploads/*
 test_script:
   - mindoc_windows_%GOARCH%.exe version
@@ -58,7 +58,7 @@ test_script:
 notifications:
   - provider: Email
     to:
-      - lifei6671@163.com
+      - allensaner@163.com
     on_build_success: false
 
 artifacts:

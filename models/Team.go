@@ -2,7 +2,7 @@ package models
 
 import (
 	"time"
-	"github.com/lifei6671/mindoc/conf"
+	"github.com/allensaner/mindoc/conf"
 	"github.com/astaxie/beego/orm"
 	"errors"
 	"github.com/astaxie/beego"

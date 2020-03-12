@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/astaxie/beego/logs"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/graphics"
-	"github.com/lifei6671/mindoc/models"
-	"github.com/lifei6671/mindoc/utils"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/graphics"
+	"github.com/allensaner/mindoc/models"
+	"github.com/allensaner/mindoc/utils"
 )
 
 type SettingController struct {

@@ -6,9 +6,9 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	"github.com/lifei6671/mindoc/cache"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/utils"
+	"github.com/allensaner/mindoc/cache"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/utils"
 	"strings"
 	"time"
 )

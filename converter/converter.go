@@ -14,9 +14,9 @@ import (
 	"os/exec"
 	"errors"
 
-	"github.com/lifei6671/mindoc/utils/filetil"
-	"github.com/lifei6671/mindoc/utils/ziptil"
-	"github.com/lifei6671/mindoc/utils/cryptil"
+	"github.com/allensaner/mindoc/utils/filetil"
+	"github.com/allensaner/mindoc/utils/ziptil"
+	"github.com/allensaner/mindoc/utils/cryptil"
 	"sync"
 	"html"
 )

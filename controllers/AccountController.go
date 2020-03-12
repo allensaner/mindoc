@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/lifei6671/gocaptcha"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/mail"
-	"github.com/lifei6671/mindoc/models"
-	"github.com/lifei6671/mindoc/utils"
+	"github.com/allensaner/gocaptcha"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/mail"
+	"github.com/allensaner/mindoc/models"
+	"github.com/allensaner/mindoc/utils"
 	"html/template"
 )
 

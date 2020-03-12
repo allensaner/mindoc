@@ -5,8 +5,8 @@ import (
 
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
-	"github.com/lifei6671/mindoc/conf"
-	"github.com/lifei6671/mindoc/models"
+	"github.com/allensaner/mindoc/conf"
+	"github.com/allensaner/mindoc/models"
 	"github.com/astaxie/beego"
 )
 
